@@ -54,13 +54,13 @@
 				<executions>
                				 <execution>
                   				<goals>
-                     				   	<goal>repackage</goal>
+                     				   <goal>repackage</goal>
                     				</goals>
-                   				 <configuration>
-                        				<mainClass>${spring.boot.mainclass}</mainClass>
-                    				</configuration>
                				 </execution>
-           			 </executions>	
+           			 </executions>
+				 <configuration>
+                                    <skip>true</skip>
+                                 </configuration>
 			</plugin>
 		</plugins>
 	</build>
