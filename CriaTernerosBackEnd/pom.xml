@@ -20,7 +20,7 @@
           	<profile>
         		<id>profile1</id>
         		<properties>
-            			<spring.boot.mainclass>com.backend.CriaTernerosBackEnd.Application</spring.boot.mainclass>
+            			<spring.boot.mainclass>scr.main.java.com.backend.CriaTernerosBackEnd.Application</spring.boot.mainclass>
        		 	</properties>
     		</profile>
 	</profiles>
@@ -46,7 +46,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>scr.main.java.com.backend.CriaTernerosBackEnd.Application</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
